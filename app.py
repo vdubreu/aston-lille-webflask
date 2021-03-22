@@ -8,8 +8,9 @@ def main():
     return "Welcome!"
 
 @app.route('/how are you')
-    def hello():
+def hello():
     return 'I am good, how about you?'
-    if __name__ == "__main__":
-    	app.run()
+
+if __name__ == "__main__":
+    app.run()
 
